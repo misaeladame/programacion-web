@@ -1,0 +1,15 @@
+.miPropiaClase {
+    font-family: Arial;
+    color: lightgreen;
+    background-color: orangered;
+    border: double 6px blue;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 50px;
+}
