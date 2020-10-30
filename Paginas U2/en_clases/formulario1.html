@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 align="center">JOSE MISAEL ADAME SANDOVAL</h1>
+    <h1 align="center"><font color="#A70900"># DE CONTROL: 18131209</font></h1>
+    <hr>
+    <h1>Formulario de Captura de Datos de Usuario</h1>
+    <hr>
+    <form>
+        <label>Nombre de Usuario:</label>
+        <input type="text" name="txtNomUser"><br>
+        <label>Contraseña</label>
+        <input type="password" name="txtPSW">
+        <label>Tu musica favorita:</label><br>
+        <input type="radio" value="CUMBIAS" name="rMusica">CUMBIAS<br>
+        <input type="radio" value="ROCK" name="rMusica">ROCK<br>
+        <input type="radio" value="CLASICA" name="rMusica">CLASICA<br>
+        <input type="radio" value="NINGUNA" name="rMusica" checked="checked">NINGUNA
+        <br><br>
+        <p>Please select your favorite music service(s)
+            <br>
+            <input type="checkbox" name="service" value="itunes" checked="checked"> iTunes
+            <input type="checkbox" name="service" value="lastfm"> Last.fm
+            <input type="checkbox" name="service" value="spotify"> Spotify
+        </p>
+        <p>
+            <label>Seleccione el Sexo del Alumno</label>
+            <select>
+                <option value="MASCULINO">MASCULINO</option>
+                <option value="FEMENINO">FEMENINO</option>
+                <option value="NO SABE">NO SABE</option>
+            </select>
+        </p>
+        <input type="submit" value="ENVIAR FORMULARIO">
+        <input type="reset" value="LIMPIAR CAMPOS">
+        <input type="button" value="Soy un botoncito 1">
+        <input type="button" value="Soy un botoncito 2">
+        <br>
+        <input type="file" value="CARGAR ARCHIVO">
+        <br>
+        <p>
+            <label>TIRA TU ROLLO AQUI</label>
+            <textarea cols="10" rows="4">
+                Escribe aquí tus penas
+            </textarea>
+        </p>
+        <br>
+        <p>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+            <input type="datetime">
+            <br>
+            <input type="email">
+            <br>
+            <input type="month">
+            <br>
+            <input type="number">
+        </p>
+    </form>
+</body>
+</html>
