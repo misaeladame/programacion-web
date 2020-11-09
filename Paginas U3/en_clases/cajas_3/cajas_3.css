@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    text-align: center;
+    background-color: #CC9900;
+}
+
+img {
+    width: 300px;
+    height: 210px;
+}
+
+.cajaIzq {
+    width: 310px;
+    height: 220px;
+    background-color: brown;
+}
+
+.cajaCen {
+    width: 310px;
+    height: 220px;
+    background-color: brown;
+}
+
+.cajaDer {
+    width: 310px;
+    height: 220px;
+    background-color: brown;
+}
