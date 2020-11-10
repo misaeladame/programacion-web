@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+.principal {
+    position: relative;
+    top: 30px;
+    margin: 20px;
+    width: auto;
+    height: 330px;
+    background-color: #6f6f6f;
+}
+
 .titulo {
     margin: 20px;
     padding-top: 20px;
@@ -18,19 +27,39 @@ img {
 }
 
 .cajaIzq {
+    position: absolute;
+    top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 10px;
     width: 310px;
     height: 220px;
+    border: 20px solid;
     background-color: brown;
 }
 
 .cajaCen {
+    position: absolute;
+    top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 360px;
     width: 310px;
     height: 220px;
+    border: 20px solid;
     background-color: brown;
 }
 
 .cajaDer {
+    position: absolute;
+    top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 710px;
     width: 310px;
     height: 220px;
+    border: 20px solid;
     background-color: brown;
 }
