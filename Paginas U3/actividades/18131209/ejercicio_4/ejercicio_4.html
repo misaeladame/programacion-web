@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CABECERA CON SOMBRA</title>
+    <style type="text/css">
+        .rotulo, .sombra {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: bolder;
+            text-decoration: none;
+            text-align: center;
+            width: 400px;
+            overflow: visible;
+        }
+
+        .rotulo {
+            color: #3366CC;
+            position: absolute;
+            left: 575px;
+            top: 10px;
+            z-index: 1;
+        }
+
+        .sombra {
+            color: #AAAAAA;
+            position: absolute;
+            left: 570px;
+            top: 2px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <div class="rotulo">Rotulo de Cabecera</div>
+        <div class="sombra">Rotulo de Cabecera</div>
+    </div>
+</body>
+</html>

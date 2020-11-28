@@ -1,0 +1,83 @@
+body {
+    background-color: #ecfadd;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 35px
+}
+
+h3 {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    text-align: right;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tabla-1 {
+    background-color: #92ff98;
+}
+
+.guinda {
+    color: #530a06;
+}
+
+.encabezado-principal {
+    text-align: center;
+    background-color: #21b140;
+    color: #000000;
+    font-weight: bold;
+}
+
+.numeracion {
+    text-align: center;
+    background-color: #013007;
+    color: #F2E0E9;
+    width: 30px;
+}
+
+.enlace {
+    width: 150px;
+    padding-left: 10px;
+}
+
+#presentacion {
+    font-size: 17px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.tabla-2 {
+    background-color:#c6b8b4;
+}
+
+.color-fondo-comentarios {
+    background-color: #114e05;
+    color: aliceblue;
+}
+
+.enc-pie-comentarios {
+    text-align: center;
+    background-color: #41a10a;
+    color: rgb(236, 196, 144);
+}
