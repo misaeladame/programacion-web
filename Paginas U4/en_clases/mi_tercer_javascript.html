@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script>
+        function calcular(form) 
+        {
+            if(confirm("¿Estas seguro?"))
+                form.Resultado.value = (form.expr.value) * (form.expr.value)
+            else
+                alert("vuelve a hacerlo")
+        }
+    </script>
+</head>
+<body>
+    <h3>Introduce un numero:</h3>
+    <form>
+        <br>
+        <input type="text" name="expr" size="15">
+        <p>
+            <input type="button" value="Calcular" onclick="calcular(this.form)">
+            <br>
+        </p>
+        Resultado:
+        <input type="text" name="Resultado" size="15">
+        <br>
+    </form>
+    <hr size=3>
+</body>
+</html>
